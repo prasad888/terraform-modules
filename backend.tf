@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "prasad-s3-demo-xyz"
+    bucket = "prasad-s3-demo-xyz1234521"
     key    = "prasad/terraform.tfstate"
     region = "ap-south-1"
     encrypt = true 
