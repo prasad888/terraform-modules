@@ -1,6 +1,6 @@
 region = "ap-southeast-1"
 name = "myproject"
-envname = "dev"
+envname = "stage"
 
 cidr_block = "10.0.0.0/16"
 
@@ -10,3 +10,4 @@ availability_zones = ["ap-south-1a", "ap-south-1b"]
 
 ami = "ami-0be9cb9f67c8dabd6"  # replace with a valid ap-south-1 AMI
 type = "t2.micro"
+bucket_name = prasad-s3-demo-xyz
