@@ -1,7 +1,7 @@
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "${var.bucket_name}"
+  bucket = "${var.bucketname}"
   tags = {
-    Name = "${var.bucket_name}"
+    Name = "${var.bucketname}"
   }
   
 }
